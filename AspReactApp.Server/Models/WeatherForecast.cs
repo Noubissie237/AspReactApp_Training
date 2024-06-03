@@ -1,6 +1,6 @@
 using System;
 
-namespace AspReactApp.Server
+namespace AspReactApp.Server.Models
 {
     public class WeatherForecast
     {
