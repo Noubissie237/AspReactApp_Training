@@ -25,7 +25,7 @@ namespace AspReactApp.Server.Models
                 {
                     var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(value));
                     _password = Convert.ToBase64String(hashedBytes);
-                }
+                }  
             }
         }
     }
